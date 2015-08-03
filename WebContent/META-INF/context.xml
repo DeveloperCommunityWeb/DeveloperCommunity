@@ -1,0 +1,13 @@
+<Context>
+  <Resource 
+  name="DeveloperCommunity" 
+  auth="Container" 
+  type="javax.sql.DataSource"
+  maxActive="100" 
+  maxIdle="30" 
+  maxWait="10000"
+  username="haminho" 
+  password="123456" 
+  driverClassName="org.postgresql.Driver"
+  url="jdbc:postgresql://1.246.219.159:5432/db_developer_community"/>
+</Context>
